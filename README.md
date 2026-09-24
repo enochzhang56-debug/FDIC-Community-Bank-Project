@@ -15,12 +15,17 @@ Insights and Recommendations are provided based off of 5 KPIs:
 - **Assets.** Measures the total resources a bank controls that generate revenue.
 - **Real GDP / Interest Rate Correlation.** Tracks how performance is influenced by external factors.
 
+
+## Data Sources 
 Data pulled using an API key from [FDIC](https://banks.data.fdic.gov/api) and [BEA](https://apps.bea.gov/api/data). Code for it can be found [here](https://github.com/enochzhang56/FDIC-Community-Bank-Project/blob/main/FDIC_API_Requests.ipynb).
 
 
 Raw data joined and combined using SQL. Code for it can be found [here](https://github.com/enochzhang56/FDIC-Community-Bank-Project/blob/main/FDIC_Data_Joining.sql).
 
-Final Joined Data Set can be downloaded [here] 
+Final Joined Data Set can be downloaded [here](https://github.com/enochzhang56/FDIC-Community-Bank-Project/blob/main/merged_bank_data_.csv). 
+
+Link to Excel File can be found [here](https://1drv.ms/x/c/e4ba8883d1c17b2b/IQDIZn0UfQ5YTLtIRhuxwIBwAYDRfqKSaoJ_RfdqzrSWvTQ?e=UNyIFN).
+
 # Data Structure
 
 <img width="621" height="416" alt="FDIC_Data_Structure" src="https://github.com/user-attachments/assets/b138f034-4e4d-4339-88ce-d82d4d4ee1ba" />
@@ -34,10 +39,13 @@ After screening 115 community banks across California from 2022-2025, six banks:
 
 Below is the graphical representation of the Bank's respective ROE and ROA against the fluctuations in the Federal Interest Rate and Real GDP of California, as well as their deposit and asset trends.
 
-<img width="1998" height="1598" alt="ROA_ROE" src="https://github.com/user-attachments/assets/75ddaedf-e4df-4450-bce7-685b4cb4dad1" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/75ddaedf-e4df-4450-bce7-685b4cb4dad1" alt="ROA_ROE" width="600">
+</p>
 
-<img width="1998" height="1598" alt="ASSET_DEP_TOP3" src="https://github.com/user-attachments/assets/9e423f13-b88d-437f-a5d5-974dce81218c" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9e423f13-b88d-437f-a5d5-974dce81218c" alt="ASSET_DEP_TOP3" width="600">
+</p>
 
 
 ## Bank Trends:
