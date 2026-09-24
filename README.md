@@ -5,7 +5,7 @@ Identifying California community bank investment/acquisition targets using FDIC 
 
 If an investor of a bank holding company is looking to diversify risk, deposit growth, and expand into different markets, a common strategy is to invest or acquire community banks.
 
-The question then becomes which ones show the most consistent growth, and which ones may carry risks when the economy expands and contracts. This project analyses data from the FDIC (Federal Deposit Insurance Information) and compares it to data pulled from BEA (U.S. Bureau of Economic Analysis) to identify community bank trends compared to state GDP and recommend banks to invest/acquire in the short term.
+The question then becomes which ones show the most consistent growth, and which ones may carry risks when the economy expands and contracts. This project analyses data from the FDIC (Federal Deposit Insurance Corporation) and compares it to data pulled from BEA (U.S. Bureau of Economic Analysis) to identify community bank trends compared to state GDP and recommend banks to invest/acquire in the short term.
 
 Insights and Recommendations are provided based off of:
 
@@ -15,9 +15,10 @@ Insights and Recommendations are provided based off of:
 - **Assets.** Measures the total resources a bank controls that generate revenue.
 - **Real GDP / Interest Rate Correlation.** Tracks how performance is influenced by external factors.
 
-Data pulled using an API key and API requests. Code for it can be found [here].
+Data pulled using an API key and API requests. Code for it can be found [here].(https://github.com/enochzhang56/FDIC-Community-Bank-Project/in/FDIC_API_Requests.ipynb)
 
-Raw data joined and combined using SQL. Code for it can be found [here].
+
+Raw data joined and combined using SQL. Code for it can be found [here].(https://github.com/enochzhang56/FDIC-Community-Bank-Project/in/FDIC_Data_Joining.sql)
 
 # Data Structure
 
