@@ -15,7 +15,7 @@ Insights and Recommendations are provided based off of:
 - **Assets.** Measures the total resources a bank controls that generate revenue.
 - **Real GDP / Interest Rate Correlation.** Tracks how performance is influenced by external factors.
 
-Data pulled using an API key and API requests. Code for it can be found [here].(https://github.com/enochzhang56/FDIC-Community-Bank-Project/in/FDIC_API_Requests.ipynb)
+Data pulled using an API key and API requests. Code for it can be found [here] (https://github.com/enochzhang56/FDIC-Community-Bank-Project/blob/main/FDIC_API_Requests.ipynb).
 
 
 Raw data joined and combined using SQL. Code for it can be found [here].(https://github.com/enochzhang56/FDIC-Community-Bank-Project/in/FDIC_Data_Joining.sql)
