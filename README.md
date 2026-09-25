@@ -16,8 +16,8 @@ Insights and Recommendations are provided based off of 5 KPIs:
 - **Real GDP / Interest Rate Correlation.** Tracks how performance is influenced by external factors.
 
 
-## Data Sources 
-Data pulled using an API key from [FDIC](https://banks.data.fdic.gov/api) and [BEA](https://apps.bea.gov/api/data). Code for it can be found [here](https://github.com/enochzhang56/FDIC-Community-Bank-Project/blob/main/FDIC_API_Requests.ipynb).
+# Data Sources 
+Data pulled using an API key from the FDIC and BEA websties. Code for it can be found [here](https://github.com/enochzhang56/FDIC-Community-Bank-Project/blob/main/FDIC_API_Requests.ipynb).
 
 
 Raw data joined and combined using SQL. Code for it can be found [here](https://github.com/enochzhang56/FDIC-Community-Bank-Project/blob/main/FDIC_Data_Joining.sql).
