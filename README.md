@@ -37,7 +37,7 @@ Link to Excel File can be found [here](https://1drv.ms/x/c/e4ba8883d1c17b2b/IQDI
 
 After screening 115 community banks across California from 2022-2025, six banks: Westamerica, East West Bank, HCN, Preferred Bank, First General Bank, and Axos Bank, emerged as consistent performers across the 5 KPIs. East West Bank, Axos Bank, and Preferred Bank stood out, as these three banks had above-average and consistent ROA and ROE, as well as large and growing deposit and asset bases.
 
-Below is the graphical representation of the Bank's respective ROE and ROA against the fluctuations in the Federal Interest Rate and Real GDP of California, as well as their deposit and asset trends.
+Below is the graphical representation of the Bank's respective ROE and ROA against the fluctuations in the Federal Interest Rate and Real GDP of California, as well as their deposit and asset trends. Find entire analysis procress [here](https://github.com/enochzhang56/FDIC-Community-Bank-Project/blob/main/Analysis.md).
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/75ddaedf-e4df-4450-bce7-685b4cb4dad1" alt="ROA_ROE" width="600">
