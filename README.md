@@ -40,13 +40,11 @@ After screening 115 community banks across California from 2022-2025, six banks:
 Below is the graphical representation of the Bank's respective ROE and ROA against the fluctuations in the Federal Interest Rate and Real GDP of California, as well as their deposit and asset trends. Find entire analysis procress [here](https://github.com/enochzhang56/FDIC-Community-Bank-Project/blob/main/Analysis.md).
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/75ddaedf-e4df-4450-bce7-685b4cb4dad1" alt="ROA_ROE" width="600">
+  <img src="https://github.com/user-attachments/assets/75ddaedf-e4df-4450-bce7-685b4cb4dad1" alt="ROA_ROE" width="450">
+  <img src="https://github.com/user-attachments/assets/9e423f13-b88d-437f-a5d5-974dce81218c" alt="ASSET_DEP_TOP3" width="450">
+  <br>
+  <em>Figure 1. ROA and ROE Trends (left) and Asset/Deposit Distribution (right).</em>
 </p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/9e423f13-b88d-437f-a5d5-974dce81218c" alt="ASSET_DEP_TOP3" width="600">
-</p>
-
 
 ## Bank Trends:
 
