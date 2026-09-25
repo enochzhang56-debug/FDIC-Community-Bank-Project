@@ -23,53 +23,39 @@ Created a pivot table, selected each bank, and found Max/Min/Average ROA and ROE
 - **Identified Capital Bank and Trust Company** as a potential outlier, with 70.44% ROA and 114.96% ROE.
   - Filtered the master sheet and found that their assets were >$200,000.00 and deposits were = $500.00.
 
-  | Bank | ROA | ROE |
-  |---|---|---|
-  | CalPrivate Bank | 2.60 | 29.58 |
-  | **Capital Bank and Trust Company** | **70.45** | **114.96** |
-  | Cathay Bank | 1.72 | 14.56 |
+<img width="495" height="56" alt="Screenshot 2026-09-24 at 5 00 58 PM" src="https://github.com/user-attachments/assets/7e13b35a-5c00-4424-9f63-04ce691bf669" />
+
 
 - **Identified First American Trust, FSB** as a potential outlier, with 119.52% ROE.
   - Filtered the master sheet and found that it was a highly volatile bank.
 
-  | Bank | ROA | ROE |
-  |---|---|---|
-  | Farmers and Merchants Bank of Long Beach | 0.98 | 9.04 |
-  | FFB Bank | 2.79 | 26.34 |
-  | **First American Trust, FSB** | **1.61** | **119.52** |
-  | First Commercial Bank (USA) | 1.71 | 9.16 |
+<img width="521" height="71" alt="Screenshot 2026-09-24 at 5 01 27 PM" src="https://github.com/user-attachments/assets/131eb59b-9580-41f9-a028-6d55119b685e" />
+
 
 ### Top 15 ROE Banks
 
 Found the 15 highest average-ROE banks (excluding the outlier bank) and plotted their quarterly ROE against each other.
 
-| Bank | Avg. ROA | Avg. ROE |
-|---|---|---|
-| Capital Bank and Trust Company | 45.88 | 70.87 |
-| First American Trust, FSB | 0.59 | 29.56 |
-| HCN Bank | 2.38 | 24.04 |
-| Westamerica Bank | 2.01 | 23.28 |
-| The Bank of New York Mellon Trust Company, National Association | 16.71 | 20.75 |
-| FFB Bank | 2.33 | 19.91 |
-| Preferred Bank | 1.99 | 19.49 |
-| CalPrivate Bank | 1.77 | 18.96 |
-| East West Bank | 1.71 | 18.21 |
-| Plumas Bank | 1.66 | 17.73 |
-| Axos Bank | 1.70 | 16.87 |
-| Oak Valley Community Bank | 1.30 | 16.33 |
-| Farmers & Merchants Bank of Central California | 1.64 | 16.24 |
-| Mission Bank | 1.58 | 16.19 |
-| First General Bank | 3.08 | 15.54 |
+**Comparing Trends of ROE:** the initial chart of all 15 banks was offset by Capital Bank and Trust Company's trend (peaking near 130%, dropping to -100%), which compressed every other bank's trend line into an unreadable cluster near zero.
 
-**Comparing Trends of ROE:** the initial chart of all 15 banks was dominated by Capital Bank and Trust Company's extreme swing (peaking near 130%, dropping to -100%), which compressed every other bank's trend line into an unreadable cluster near zero. This is a classic outlier-distortion problem — the chart was technically accurate but told the wrong story.
+
+<img width="468" height="265" alt="Screenshot 2026-09-24 at 5 02 09 PM" src="https://github.com/user-attachments/assets/63c84c5d-32b9-419a-bc84-cb62d6ed8442" />
+
 
 **Removing Outlier: First American Trust** — after also removing this bank (highly volatile, as noted above), the remaining top-14 ROE trend chart became readable:
+
+<img width="536" height="331" alt="Screenshot 2026-09-24 at 5 03 28 PM" src="https://github.com/user-attachments/assets/db0c0150-23ee-48ef-a532-e843311ec7d8" />
+
 
 - Top 14 ROE banks all show consistent ROE, with none dipping into negative territory.
 - There is a general trend where most banks peaked from 2023 Q2–Q3.
 - Consistent ROE across quarters signals operational stability.
 
 **Compare Trends of ROA:** The Bank of New York Mellon Trust Company stood out sharply on ROA (peaking near 20%, versus most banks clustered under 5%). Removed from this specific chart (**noting it for final analysis, not discarding it entirely**) to make the remaining banks' trends visible:
+
+<img width="668" height="371" alt="Screenshot 2026-09-24 at 5 04 04 PM" src="https://github.com/user-attachments/assets/7d8fc53d-3909-4959-a7f6-b121d2cc60d6" />
+
+<img width="664" height="387" alt="Screenshot 2026-09-24 at 5 04 26 PM" src="https://github.com/user-attachments/assets/12975461-17dc-46fa-af3e-60387d48c213" />
 
 - With New York Mellon removed, First General Bank emerges as a distinct high-ROA performer, peaking around 4% and remaining consistently elevated through 2023–2024.
 
@@ -93,21 +79,21 @@ Found the 15 highest average-ROE banks (excluding the outlier bank) and plotted 
 - High deposits show strong customer trust and market presence.
 - Stable, low-cost funding.
 
+<img width="434" height="326" alt="Screenshot 2026-09-24 at 5 04 52 PM" src="https://github.com/user-attachments/assets/e0b78c04-cf17-4f1f-942f-96b3c2455d38" />
 
 
 ### Loan-to-Asset Ratio vs. ROE
 - This ratio reveals how lending-aggressive a bank is, signaling higher earning potential but higher risk exposure to economic downturns and interest rate shocks.
 - A higher ratio also signals that the bank's assets have lower liquidity.
 
+<img width="392" height="297" alt="Screenshot 2026-09-24 at 5 08 08 PM" src="https://github.com/user-attachments/assets/fdfde1cd-ef59-4d8e-b729-a0f606af4bd7" />
+
+
 ### Equity-to-Assets Ratio vs. ROE
 - This ratio reveals how much of a bank's assets are financed by the bank's owners rather than depositors or debt, which may indicate lower risk of failure and more stable growth.
 
-### Real GDP vs. ROE
-- Plotted against California's Real GDP over the same period to check whether bank profitability tracks the broader state economy.
+<img width="352" height="283" alt="Screenshot 2026-09-24 at 5 08 20 PM" src="https://github.com/user-attachments/assets/85bb516d-6677-409e-95f2-a8a4447cc15f" />
 
-### Interest Rate vs. ROE
-- Banks will naturally gain or lose deposits and assets as interest rates rise and fall.
-- Resilience against interest rate hikes and dips signals a more consistent, durable bank.
 
 ---
 
@@ -150,7 +136,10 @@ Began by cross-referencing ROE/ROA trends and the bivariate graphs above to iden
 
 ## Tableau Analysis
 
-Built out Tableau views for the shortlisted banks: ROA trends, ROE trends, Federal Interest Rate over time, Real GDP over time, Equity-to-Asset Ratio, Efficiency Ratio, Asset Amount, Deposits, and Equity Amount, each broken out by bank.
+Built out Tableau views for the shortlisted banks: 
+Equity-to-Asset Ratio, Efficiency Ratio, Asset Amount, Deposits, and Equity Amount, each broken out by bank.
+
+<img width="665" height="511" alt="Screenshot 2026-09-24 at 5 11 04 PM" src="https://github.com/user-attachments/assets/2655312b-4439-4634-9bb8-4f37a40d1cdb" />
 
 ### Key findings by bank
 
